@@ -1,0 +1,391 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    width: 100%;
+    min-height: 100vh;
+    background: #1F0F42;
+}
+.Container{
+    position: relative;
+    width: 1024px;
+    height: 1625px;
+}
+.Name{
+    position: absolute;
+    width: 139px;
+    height: 38px;
+    left: 7%;
+    top: 3rem;
+
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2em;
+    line-height: 38px;
+
+    color: #FFFFFF;
+}
+.nav{
+    position: absolute;
+    width: 50%;
+    height: 33px;
+    left: 50%;
+    top: 3rem;
+}
+.nav ul li{
+    display: inline-block;
+    padding: 5px;
+}
+.nav ul li a{
+    padding: 10px;
+    text-decoration: none;
+    font-family: 'Outfit', sans-serif;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.3rem;
+    line-height: 25px;
+    text-align: center;
+}
+.button1 {
+    width: 88px;
+    height: 33px;
+    left: 864px;
+    top: 56px;
+    background: linear-gradient(90deg, #FDDC2D 0%, #FB3AB9 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    border-style: none;
+}
+a{
+    text-decoration: none;
+    font-family: 'Outfit', sans-serif;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+}
+.title{
+    position: absolute;
+    width: 85.5%;
+    height: 45.86px;
+    left: 7%;
+    top: 8rem;
+}
+.title .line{
+    position: absolute;
+    width: 100%;
+    height: 8%;
+    left: 0px;
+    top: 50px;
+
+    background: #FFFFFF;
+}
+.title h1{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2em;
+    line-height: 1.5em;
+    text-align: left;
+
+    color: #FFFFFF;
+}
+.nm-size{
+    width: 18%;
+    height:18%;
+}
+.NM{
+    position: absolute;
+    top: 15%;
+    left:7%;
+    width: 85.5%;
+    height:20%;
+}
+.info-nm{
+    position: absolute;
+    top: 0%;
+    left: 20%;
+    width: 80%;
+    font-family: 'Outfit', sans-serif;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+}
+.name_NM{
+    font-weight: 600;
+}
+.jc-size{
+    width: 18%;
+    height:18%;
+}
+.JC{
+    position: absolute;
+    top: 27%;
+    left:7%;
+    width: 85.5%;
+    height:20%;
+}
+.info-jc{
+    position: absolute;
+    top: 0%;
+    left: 20%;
+    width: 80%;
+    font-family: 'Outfit', sans-serif;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+}
+.name_jc{
+    font-weight: 600;
+}
+.ip-size{
+    width: 18%;
+    height:18%;
+}
+.IP{
+    position: absolute;
+    top: 39%;
+    left:7%;
+    width: 85.5%;
+    height:20%;
+}
+.info-ip{
+    position: absolute;
+    top: 0%;
+    left: 20%;
+    width: 80%;
+    font-family: 'Outfit', sans-serif;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+}
+.name_ip{
+    font-weight: 600;
+}
+.cr-size{
+    width: 18%;
+    height:18%;
+}
+.CR{
+    position: absolute;
+    top: 51%;
+    left:7%;
+    width: 85.5%;
+    height:20%;
+}
+.info-cr{
+    position: absolute;
+    top: 0%;
+    left: 20%;
+    width: 80%;
+    font-family: 'Outfit', sans-serif;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+}
+.name_cr{
+    font-weight: 600;
+}
+.cm-size{
+    width: 18%;
+    height:18%;
+}
+.CM{
+    position: absolute;
+    top: 63%;
+    left:7%;
+    width: 85.5%;
+    height:20%;
+}
+.info-cm{
+    position: absolute;
+    top: 0%;
+    left: 20%;
+    width: 80%;
+    font-family: 'Outfit', sans-serif;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+}
+.name_cm{
+    font-weight: 600;
+}
+.kc-size{
+    width: 18%;
+    height:18%;
+}
+.KC{
+    position: absolute;
+    top: 75%;
+    left:7%;
+    width: 85.5%;
+    height:20%;
+}
+.info-kc{
+    position: absolute;
+    top: 0%;
+    left: 20%;
+    width: 80%;
+    font-family: 'Outfit', sans-serif;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+}
+.name_kc{
+    font-weight: 600;
+}
+.ai-size{
+    width: 18%;
+    height:18%;
+}
+.AI{
+    position: absolute;
+    top: 87%;
+    left:7%;
+    width: 85.5%;
+    height:20%;
+}
+.info-ai{
+    position: absolute;
+    top: 0%;
+    left: 20%;
+    width: 80%;
+    font-family: 'Outfit', sans-serif;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+}
+.name_ai{
+    font-weight: 600;
+}
+.nl-size{
+    width: 18%;
+    height:18%;
+}
+.NL{
+    position: absolute;
+    top: 99%;
+    left:7%;
+    width: 85.5%;
+    height:20%;
+}
+.info-nl{
+    position: absolute;
+    top: 0%;
+    left: 20%;
+    width: 80%;
+    font-family: 'Outfit', sans-serif;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+}
+.name_nl{
+    font-weight: 600;
+}
+@media only screen and (min-width: 1366px){
+    .Container{
+        width: 1366px;
+    }
+    .nav {
+        left: 50%;
+    }
+    .nav ul li {
+        padding-left: 3em;
+    }
+    .nav ul li a{
+        font-size: 1.5rem;
+    }
+    .JC{
+        top:30%;
+    }
+    .IP{
+        top:45%;
+    }
+    .CR{
+        top: 60%;
+    }
+    .CM{
+        top:75%;
+    }
+    .KC{
+        top:90%;
+    }
+    .AI{
+        top:105%;
+    }
+    .NL{
+        top:120%;
+    }
+}
+@media only screen and (min-width:1920px){
+    .Container{
+        width:1920px;
+        height:2200px;
+    }
+    .Name{
+        top:3rem;
+        font-size: 3em;
+    }
+    .nav {
+        left: 58%;
+        top:3rem;
+    }
+    .nav ul li{
+        padding:10px;
+    }
+    .nav ul li a{
+        padding: 15px;
+        font-size:2rem;
+    }
+    .button1{
+        width: 150px;
+        height: 50px;
+    }
+    a{
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .title{
+        width:85%;
+        top: 9rem;
+    }
+    .title h1{
+        font-size: 3em;
+        line-height: 2em;
+    }
+    .title .line{
+        top:85px;
+    }
+    .info-nm, .info-jc, .info-ip,.info-cr,.info-cm,.info-kc, .info-ai, .info-nl{
+        font-size: 30px;
+        line-height: 35px;
+    }
+    
+}
+
+
+
+

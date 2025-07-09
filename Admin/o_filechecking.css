@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    width: 100%;
+    min-height: 100vh;
+    background: #E8DEFC;
+}
+.Container{
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+}
+.lbl_adm{
+    position:absolute;
+    top:5%;
+    left:5%;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 81px;
+
+    color: #1F0F42;
+}
+.lbl_flchk{
+    position:absolute;
+    top:7%;
+    left:84%;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 35px;
+
+    color: #1F0F42;
+}
+.lbl_rcpt{
+    position: absolute;
+    top: 15%;
+    left:5%;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+
+    color: #1F0F42;
+}
+.lbl_rnum{
+    position:absolute;
+    top: 17%;
+    left:5%;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 76px;
+
+    color: #675B81;
+}
+.date{
+    position: absolute;
+    top:15%;
+    left: 83%;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+
+    color: #1F0F42;
+}
+.time{
+    position: absolute;
+    top:19%;
+    left: 86.4%;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+
+    color: #1F0F42;
+}
+.f-doc{
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    width: 35%;
+    height: 60%;
+    background: #D9D9D9;
+    box-shadow: 8px 10px 11px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+}
+.f-doc h1{
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    height: 10%;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 57px;
+    text-align: center;
+
+    color: #1F0F42;
+}
+.eml{
+    position:absolute;
+    top: 20%;
+    width: 100%;
+    height: 5%;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 35px;
+    text-align: center;
+
+    color: #1F0F42;
+}
+.stdN{
+    position:absolute;
+    top: 25%;
+    width: 100%;
+    height: 5%;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 35px;
+    text-align: center;
+
+    color: #1F0F42;
+}
+.PrvFile{
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    width:80%;
+    height:15%;
+    background: #D9D9D9;
+    border: 5px solid #1F0F42;
+    border-radius: 50px;
+
+    text-decoration: none;
+    font-family: 'Outfit', sans-serif;
+    color: #1F0F42;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 5rem;
+    text-align: center;
+}
+
+.Newfl{
+    position: absolute;
+    top: 84%;
+    left: 10%;
+    width:80%;
+    height:15%;
+    
+    
+    text-decoration: none;
+    font-family: 'Outfit', sans-serif;
+    color: #1F0F42;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 5rem;
+    text-align: center;
+}
+.adfl{
+    position: absolute;
+    top: 52%;
+    left: 10%;
+    width:80%;
+    height:15%;
+    background: #D9D9D9;
+    border: 5px solid #1F0F42;
+    border-radius: 50px;
+
+    text-decoration: none;
+    font-family: 'Outfit', sans-serif;
+    color: #1F0F42;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 5rem;
+    text-align: center;
+}
+.save{
+    position: absolute;
+    top: 69%;
+    left: 10%;
+    width:80%;
+    height:15%;
+    background: #FDDC2D;
+    border-radius: 50px;
+
+    text-decoration: none;
+    font-family: 'Outfit', sans-serif;
+    color: black;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 5rem;
+    text-align: center;
+    border-style: none;
+}
+.reqlist{
+    position: absolute;
+    top:25%;
+    left: 45%;
+    width: 50%;
+    height:60%;
+}
+.ffl{
+    position: absolute;
+    top: 5%;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+
+    color: #1F0F42;
+}
+ul{
+    position: absolute;
+    top: 30%;
+    left:10%; 
+}
+ul li{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+
+    color: #1F0F42;
+}
+.lbl_total{
+    position: absolute;
+    top: 80%;
+    left: 20%;
+
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+
+    color: #1F0F42;
+}
+.lbl_tNum{
+    position: absolute;
+    top: 80%;
+    left: 83%;
+    
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+
+    color: #1F0F42;
+}
+.bck{
+    position: absolute;
+    top:91%;
+    left:3%;
+    width: 8%;
+    height:5%;
+
+    text-decoration: none;
+    font-family: 'Outfit', sans-serif;
+    color: #0E0101;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 3.5rem;
+    text-align: center;
+}
+.cnf{
+    position: absolute;
+    top:90%;
+    left:86%;
+    width: 8%;
+    height:5%;
+
+    text-decoration: none;
+    font-family: 'Outfit', sans-serif;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    text-align: center;
+
+    background: #FDDC2D;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    border-style: none;
+}
+.list{
+    position: absolute;
+    width: 85%;
+    height: 40%;
+    top: 30%;
+    left:10%;
+
+    overflow-y: auto;
+}

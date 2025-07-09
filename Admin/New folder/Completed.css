@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    width: 100%;
+    min-height: 100vh;
+    background: #E8DEFC;
+}
+.Container{
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+}
+.lbl_adm{
+    position:absolute;
+    top:5%;
+    left:5%;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 81px;
+
+    color: #1F0F42;
+}
+.lbl_cmpt{
+    position:absolute;
+    top:7%;
+    left:85%;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 35px;
+
+    color: #1F0F42;
+}
+.table-box{
+    width: 100%;
+    height:100%;
+    
+    position: absolute;
+
+    overflow-y: scroll;
+
+}
+.outer-box{
+    width: 90%;
+    height:70%;
+    
+    position: absolute;
+    top: 18%;
+    left: 5%;
+
+    border: 1px solid #1F0F42;
+}
+
+table{
+    table-layout: fixed;
+    border-collapse: collapse;
+    font-family: 'Outfit';
+    font-style: normal;
+    width: 100%;
+    height: 70%;
+    
+}
+th{
+    position: sticky;
+    top:0px;
+
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 40px;
+
+    background-color: #675B81;;
+    color: #FFFFFF;
+}
+td{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+
+    color: #0E0101;
+}
+th, td {
+    text-align: left;
+    padding: 15px;
+}
+.act{
+    padding: 12px;
+
+    text-decoration: none;
+    font-family: 'Outfit', sans-serif;
+    color: #0E0101;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 3.5rem;
+    text-align: center;
+
+    background: #FDDC2D;
+    border-radius: 50px;
+}
+
+tr:hover {background-color: #FFFFFF;}
+
+.bck{
+    position: absolute;
+    top:91%;
+    left:3%;
+    width: 8%;
+    height:5%;
+
+    text-decoration: none;
+    font-family: 'Outfit', sans-serif;
+    color: #0E0101;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 3.5rem;
+    text-align: center;
+}
+.cnf{
+    position: absolute;
+    top:90%;
+    left:86%;
+    width: 8%;
+    height:5%;
+
+    text-decoration: none;
+    font-family: 'Outfit', sans-serif;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 3.5rem;
+    text-align: center;
+
+    background: #FDDC2D;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+}

@@ -1,0 +1,237 @@
+**{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background: #1F0F42;
+}
+.Container{
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+}
+.nav{
+    position: absolute;
+    width: 699px;
+    height: 44px;
+    left: 1047px;
+    top: 62px;
+}
+
+nav ul li{
+    display: inline-block;
+    padding:10px;
+}
+nav ul li a{
+    padding: 15px;
+    text-decoration: none;
+    font-family: 'Outfit', sans-serif;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 25px;
+    text-align: center;
+}
+.button1 {
+    width: 173px;
+    height: 44px;
+    left: 1168px;
+    top: 43px;
+    background: linear-gradient(90deg, #FDDC2D 0%, #FB3AB9 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    border-style: none;
+}
+a{
+    text-decoration: none;
+    font-family: 'Outfit', sans-serif;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 25px;
+    text-align: center;
+}
+.dotB {
+    position: absolute;
+    width: 477.42px;
+    height: 167px;
+    left: 77.29px;
+    top: 0px;
+    
+    background: #8791EA;
+    filter: blur(115px);
+}
+.dotY{
+    position: absolute;
+    width: 587px;
+    height: 587px;
+    left: 863px;
+    top: 281px;
+    
+    background: #FFEA79;
+    filter: blur(95px);
+}
+.dotP{
+    position: absolute;
+    width: 295.61px;
+    height: 219px;
+    left: 2px;
+    top: 805px;
+
+    background: #FC10AC;
+    filter: blur(115px);
+}
+.Name{
+    position: absolute;
+    width: 162px;
+    height: 44px;
+    left: 188px;
+    top: 38px;
+
+    font-family: 'Outfit', sans-serif;
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 44px;
+
+    text-align: center; 
+    color: #FFFFFF;
+}
+.Login{
+    position: absolute;
+    width: 780px;
+    height: 780px;
+    left: 0px;
+    top: 0px;
+    
+    filter: drop-shadow(5px 10px 4px rgba(0, 0, 0, 0.5));
+}
+.box{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 620.1px;
+    height: 802px;
+    left: 1026px;
+    top: 191px;
+    
+    background: #FFFFFF;
+    border: 3px solid #E9E8E8;
+    box-shadow: 5px 10px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 26px;
+}
+.box .wlcm{
+    margin: 45px 155px;
+    padding-top:110px;
+
+    position: absolute;
+    width: 210.24px;
+    height: 51.97px;
+    left: 0px;
+    top: 70px;
+    
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 50px;
+    text-align: center;
+
+    color: #1F0F42;
+}
+input[type=text]{
+    margin: 75px 35px;
+    position: absolute;
+    width: 513.8px;
+    height: 66.14px;
+    left: 18px;
+    top: 280px;
+
+    background: #FFFFFF;
+    border: 4px solid #E9E8E8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+
+    color: #1F0F42;
+}
+input[type=password]{
+    margin: 180px 35px;
+    position: absolute;
+    width: 513.8px;
+    height: 66.14px;
+    left: 18px;
+    top: 270px;
+
+    background: #FFFFFF;
+    border: 4px solid #E9E8E8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+
+    color: #1F0F42;
+}
+.login{
+    margin: 50px 60px;
+
+    position: absolute;
+    width: 206.02px;
+    height: 58.86px;
+    left: 20px;
+    top: 550px;
+
+    background: #FDDC2D;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    border-style:none;
+}
+.login a{
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.FPass{
+    margin: 50px 60px;
+
+    border-style: none;
+    background: none;
+
+}
+.FPass a{
+    position: absolute;
+    width: 206.02px;
+    height: 58.86px;
+    left: 340px;
+    top: 610px;
+
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+
+
+    text-align: left;
+    text-decoration-line: underline;
+
+    color: rgba(157, 81, 217, 0.98);
+}
